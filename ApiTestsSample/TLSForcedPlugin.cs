@@ -21,7 +21,7 @@ namespace ApiTestsSample
         public override void PreWebTest(object sender, PreWebTestEventArgs e)
         {
             base.PreWebTest(sender, e);
-
+	    //Test
             // We're using SSL3 here and not TLS. Without this line, nothing works.
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
